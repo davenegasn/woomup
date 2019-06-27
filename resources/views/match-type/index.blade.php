@@ -9,7 +9,7 @@
 
                 <h1>Tipos de match</h1>
                    
-                        <a href="{{ url('/match-type/create') }}" class="btn btn-success btn-sm" title="Add New MatchType">
+                        <a href="{{ url('/match-type/create') }}" class="btn btn-outline-success" title="Add New MatchType">
                             Añadir nuevo tipo de match
                         </a>
 

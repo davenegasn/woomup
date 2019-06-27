@@ -37,6 +37,9 @@
                 border-bottom: 1px solid #D74219;
                 transition: all .5s ease;
             }
+            aside .sidebar-container ul li:first-child a{
+                background-color: #28a745;
+            }
             aside .sidebar-container ul li a:hover{
                 text-decoration: none;
                 background-color: #E03A0D;

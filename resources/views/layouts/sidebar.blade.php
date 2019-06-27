@@ -3,20 +3,21 @@
         <h1>Acciones</h1>
         <ul>
             <li>
-                <a href="#">Usuarias</a>
+                <a href="{{ action('MatchController@index') }}">Matches</a>
             </li>
             <li>
-                <a href="#">Roles</a>
+                <a href="{{ action('GirlsController@index') }}">Usuarias</a>
             </li>
             <li>
-                <a href="#">Empresas</a>
+                <a href="{{ action('RolesController@index') }}">Roles</a>
             </li>
             <li>
-                <a href="#">Tipos de match</a>
+                <a href="{{ action('CompanyController@index') }}">Empresas</a>
             </li>
-             <li>
-                <a href="#">Matches</a>
+            <li>
+                <a href="{{ action('MatchTypeController@index') }}">Tipos de match</a>
             </li>
+            
         </ul>
     </div>
 </aside>

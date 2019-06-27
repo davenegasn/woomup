@@ -11,9 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'MatchController@index');
 
 Route::resource('roles', 'RolesController');
 Route::resource('girls', 'GirlsController');
